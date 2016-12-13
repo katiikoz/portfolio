@@ -1,0 +1,1117 @@
+
+/*strona w budowie w wersji EN*/
+@import url('building.css');
+* {margin:0px; 
+  padding: 0px;
+}
+
+
+  body{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height:1.5;
+    color: #191515;
+    }
+
+  .clear{
+    content: "";
+    clear: both;
+  }
+  .uppercase{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #EFAB00;
+  }
+
+ .visible {
+  opacity:1;
+  }
+
+  .hidden{
+  opacity:0;
+    }
+
+  .naglowek1{
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 70px;
+  font-family:  'Audiowide', cursive;
+  }
+
+  .naglowek2{
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ffffe0;
+  }
+
+  
+  .wrapper{
+  width: 100%;
+  max-width: 100%;
+  }
+
+
+  header{
+  display: flex;/*wazne*/
+  display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+
+  
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-color: #302727;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 70px;
+  z-index:999;
+  border-bottom: 2px solid #2d2121;
+  box-shadow: 0px 1px 4px #2d2121;
+ }
+   
+   /*.logo{
+   margin: auto;
+   margin-right: 1%;
+   }*/
+
+  /*menu ukryte na duze ekrany*/
+   #attach-mobile-menu{
+   display: none;
+   }
+
+   nav{
+   font-family: 'Ubuntu', sans-serif;
+   margin: auto;
+   margin-left: 5%;
+   margin-right: 15%;
+   height: 100%;
+   }
+
+ .active{
+  background-color: #190d0d;
+ }
+
+ .icons-container{
+    margin-right: 20%;
+    height: 70px;/*wyrownanie w pionie flag*/
+    line-height: 70px;/*wyrownanie w pionie flag*/
+  }
+
+ 
+  a:hover .icon {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+    
+  }
+
+  img.icon{
+    vertical-align: middle; /*wyrownaniew pionie flag*/
+    padding-left: 10px;
+  }
+   
+  
+  
+  .navigation{
+  display: inline-block;
+  height: 100%;
+  }
+
+  .navigation li{
+  display: inline-block;
+  }
+
+  .navigation li a{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: white;
+    line-height: 70px;
+    height: 70px;
+    vertical-align: middle;
+    display: block;
+    margin-right: -5px;
+    border-left: 2px solid #302727;
+    border-right: 2px solid #302727;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+    }
+
+   .navigation li a:hover {
+     background-color: #190d0d;
+     margin-right: -5px;
+     border-left: 2px solid black;
+     border-right: 2px solid black;
+    }
+
+   .slicknav_menu .slicknav_icon {
+    margin: 5px 8px 5px 9px !important;
+    }
+
+   .foto-header{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+     -webkit-filter: brightness(0.5);
+
+    filter: brightness(0.5);
+   }
+
+   .fotosmall-header{
+    display: none;
+   }
+
+   .header-header{
+    position: relative;
+    z-index: -1;
+   }
+
+   .tytul{
+   position: absolute;
+    -webkit-transform: translateY(-150px);
+            transform: translateY(-150px);
+    height: 300px;
+    left:0;
+    right: 0;
+    top:50%;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    max-width: 100%;
+    z-index: 99;
+    color:white;
+    }
+    /*kreska miedzy imieniem i nazwiskiem a job*/
+   .foto-underline{
+    width: 600px;
+    margin: 0 auto;
+    height: 3px;
+    border-bottom: 3px solid #eeaa00;
+    border-top: 0px solid white;
+    margin-bottom: 10px;
+   }
+
+  .tytul p {
+   margin-top: 65px;
+  }
+
+     /* Katarzyna Kozlowska*/
+   .tytul h1{
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    color: #f0fff0;
+   }
+ /*Projektowania Stron WWW i Grafiki Komputerowej*/
+   .tytul h2{
+    font-size: 1.2rem;
+    color: #eeaa00;
+   }
+
+
+/*sekcja o mnie */
+  #omnie{
+  
+     background-color: #333333;
+    margin-top: -5px;
+    width: 100%;
+    border-top: 2px solid white;
+    border-bottom: 5px solid  #302727;
+    text-align: left;
+   font-family: 'Open Sans', sans-serif;
+  }
+
+  
+  .light{
+  color:   #f0fff0;
+  }
+
+.flex{
+
+  width:70%;
+  margin: auto;
+  padding-bottom: 50px;
+  line-height: 30px;
+  background-color: 
+  }
+
+  div.box1{
+  float:left;
+  width: 60%;
+ margin-left: 20px;
+    color:    #f0fff0;
+    }
+
+  div.box2{
+  float:left;
+  width: 30%;
+  color:    #f0fff0;
+  padding-bottom: 20px;
+   
+  }
+
+
+
+ img.mojafota{
+  display: block;
+  margin: 35% auto;
+  border:3px solid rgba(0,0,0, 0.2);
+  box-shadow: 5px 5px 15px rgba(0,0,0, 0.6);
+  border-radius: 150px;
+ vertical-align: middle;
+ width: 60%;
+ max-width: 100%;
+  }
+/*sekcja portfolio*/
+ #portfolio{
+  width: 100%;
+  background-color:  white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*ramka na mniejsze boxy*/
+.boxy{
+  
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+
+
+}
+
+.box{
+float: left;
+width: 25%;
+  
+  outline: none;
+  
+  }
+
+a img.img-box{
+  width: 95%;
+  height: auto;
+  border: 2px solid #777777;
+  box-shadow: 2px 2px 4px black;
+   -webkit-transition: all 0.5s;
+transition: all 0.5s;
+}
+
+
+ 
+  a img.img-box:hover {
+    /*   -webkit-filter: brightness(0.6);
+  filter: brightness(0.6);*/
+ 
+ -webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+   filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9))
+  }
+     
+/*sekcja kontakt*/
+section#kontakt{
+  width: 100%;
+  background-color:#333333;
+  margin: 0 auto;
+}
+ /*div o szerokosci 60% na elementy kontaku*/
+ .kontaktramka{
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+
+/* dane kontaktowe*/
+/*div na kontakt*/
+.adres{
+ padding-top: 30px;
+ text-align: center;
+float: left;
+width: 100%;
+  padding-bottom: 30px;
+  color:  #f0fff0;
+}
+ /*ikona Skype*/
+#SkypeButton_Call_katiikoz_1_paraElement img{
+margin: 0px !important;
+
+}
+
+/*podekreslenie w tytule */
+ .logo-underline{
+  width: 450px;
+  height: 2px;
+  margin:0 auto;
+  border-bottom: 2px solid #eeaa00;
+  margin-bottom: 5px;
+
+   }
+  /* dane kontaktowe*/
+  .imienazwisko{
+  color:#f0fff0;
+  font-family: 'Audiowide', cursive;
+   }
+
+   .job{
+  color:#eeaa00;
+  font-family: 'Audiowide', cursive;
+  letter-spacing: 2px;
+   }
+
+
+/*adres email*/
+.adres a{
+  color:  #f0fff0;
+  text-decoration: none;
+  font-weight: bold;
+  padding-top: 5px;
+  }
+
+.adres a:hover{
+text-decoration: underline;}
+.name{
+  color: #d3a92a;
+}
+
+/*div formularza i mapy*/
+
+/*formularz*/
+.formularz{
+ float: left;
+ width: 40%;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+ margin-right: 20px;
+ padding-top: 30px;
+ margin-left: 40px;
+}
+.form-p-big{
+  font-size: 1rem;
+  color:#191515;
+  font-weight: bold;
+}
+.form-p-small{
+  font-size: 0.8rem;
+  color:#191515;
+  font-weight: bold;
+}
+.status_ok{
+  color: green;
+}
+.status_err{
+  color: red;
+}
+input{
+  background-color:#fffaf0;
+  height: 20px;
+  width: 150px;
+  box-shadow: inset 3px 3px 4px #FAFAFA ;
+}
+
+input:focus{
+  background-color: white ;
+  box-shadow: 2px 2px 3px #EFAB00 ;
+  outline: none;
+}
+
+textarea{
+  background-color:#fffaf0;
+  height: 100px;
+  width: 250px;
+  box-shadow: inset 3px 3px 4px #FAFAFA ;
+ 
+}
+textarea:focus{
+ background-color: white ;
+box-shadow: 1px 1px 2px #EFAB00 ;
+ outline: none;
+}
+
+
+
+
+ /*div mapa*/
+.map{
+float: right;
+width: 40%;
+padding-top: 30px;
+ margin-right: 40px
+}
+button{
+  background-color:  /* IE10+ */ 
+background-image: -ms-linear-gradient(top, #EFAB00 40%, #B37525 90%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #EFAB00 40%, #B37525 90%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #EFAB00 40%, #B37525 90%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40, #EFAB00), color-stop(90, #B37525));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #EFAB00 40%, #B37525 90%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to bottom, #EFAB00 40%, #B37525 90%);
+  
+ 
+  padding:5px 18px 5px 18px ;
+
+ 
+  margin-bottom: 20px;
+ border: 2px solid rgba(0,0,0, 0.3);
+ box-shadow: 2px 2px 4px rgba(0,0,0, 0.6);
+ outline: none;
+}
+button:hover{
+ /* IE10+ */ 
+background-image: -ms-linear-gradient(top, #B37525 40%, #EFAB00 90%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #B37525 40%, #EFAB00 90%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #B37525 40%, #EFAB00 90%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40, #B37525), color-stop(90, #EFAB00));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #B37525 40%, #EFAB00 90%);
+
+
+}
+button:active{
+ 
+
+/* W3C Markup */ 
+background-image: linear-gradient(to bottom, #B37525 40%, #EFAB00 90%);
+transform: scale(0.78, 0.827);
+-webkit-transform: scale(0.78, 0.827);
+-moz-transform: scale(0.78, 0.827);
+-o-transform: scale(0.78, 0.827);
+-ms-transform: scale(0.78, 0.827);
+}
+
+
+footer{
+  width: 100%;
+  background-color: #190d0d;
+  color:white;
+  text-align: center;
+  height: 40px;
+  margin-bottom: -35px;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.copyright{
+  font-size: 0.8rem;
+  color:#f0fff0;
+ }
+
+
+@media all and (max-width: 1200px) and (min-width: 993px) {
+/*pokaz menu mobilne*/
+ #attach-mobile-menu{
+  display: block;
+ }
+
+ /*ukryj menu glowne*/
+ #main-menu{
+  display: none;
+ }
+
+/*pozycjonowanie hamburgera*/
+.slicknav_menu{
+position: fixed;
+background: #302727 !important;
+z-index: -99
+left: 0;
+right: 0;
+ }
+
+ /*pozycjonowanie menu roziwjanego*/
+ ul.slicknav_nav{
+  margin-top: 80px;}
+  .slicknav_btn{
+  top: 5px;
+  right: 5px;
+  background: #190404 !important;
+  padding: 5px;
+  }
+
+
+ ul.slicknav_nav a{ 
+ outline:none;
+  text-align: center;
+  margin: 0px;
+  padding:10px;
+}
+
+ul.slicknav_nav a:hover{
+
+/* Mozilla Firefox */
+
+/* Opera */
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40, #EFAB00), color-stop(90, #B37525));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #EFAB00 40%, #B37525 90%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to bottom, #EFAB00 40%, #B37525 90%);
+
+}
+ 
+/*sekcja o mnie*/
+
+.flex{
+  width:70%;
+}
+
+img.mojafota{
+ max-width: 60%;
+}
+
+
+div.box1{
+   width: 100%;
+   max-width: 100%;
+    color:    #f0fff0;
+    }
+div.box2{
+  width: 40%;
+  color:    #f0fff0;
+  margin-left: 30%; /*wysrodkowac css*/
+ 
+
+  }
+
+img.mojafota{
+ margin: 0 auto;
+ max-width: 60%;
+}
+
+/*sekcja portfolio*/
+.boxy{ 
+  width: 70%;
+ }
+
+/*sekcja kontakt*/
+ .kontaktramka{
+  width: 70%;
+ }
+
+
+.map{
+
+padding-top: 30px;
+margin-right: 40px; 
+}
+
+}
+
+ @media all and (max-width: 992px) and (min-width: 769px){
+/*szary pasek na zdjecie */
+.tytul{
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    height: 200px;
+   
+ }
+
+
+/*pokaz menu mobilne*/
+ #attach-mobile-menu{
+  display: block;
+ }
+
+ /*ukryj menu glowne*/
+ #main-menu{
+  display: none;
+ }
+
+/*pozycjonowanie hamburgera*/
+.slicknav_menu{
+position: fixed;
+background: #302727 !important;
+z-index: -99;
+left: 0;
+right: 0;
+  }
+
+ /*pozycjonowanie menu roziwjanego*/
+ ul.slicknav_nav{
+  margin-top: 80px;}
+  .slicknav_btn{
+  top: 5px;
+  right: 5px;
+  background: #190404 !important;
+  padding: 5px;
+  }
+
+
+ ul.slicknav_nav a{ 
+ outline:none;
+text-align: center;
+margin: 0px;
+padding:5px;
+}
+
+ul.slicknav_nav a:hover{
+
+/* Mozilla Firefox */
+
+/* Opera */
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40, #EFAB00), color-stop(90, #B37525));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #EFAB00 40%, #B37525 90%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to bottom, #EFAB00 40%, #B37525 90%);
+
+}
+ 
+/*sekcja o mnie*/
+
+.flex{
+  width:80%;
+}
+
+img.mojafota{
+ max-width: 60%;
+}
+
+
+ div.box1{
+   width: 100%;
+    color:    #f0fff0;
+    }
+div.box2{
+ width: 40%;
+  color:    #f0fff0;
+  margin-left: 30%;
+  }
+img.mojafota{
+ margin: 0 auto;
+ max-width: 60%;
+}
+
+/*sekcja portfolio*/
+.boxy{ 
+  width: 80%;
+}
+
+/*sekcja kontakt*/
+ .kontaktramka{
+  width: 80%;
+ }
+.formularz {
+float: left;
+width: 40%;
+}
+
+.map{
+float: right;
+width: 40%;
+padding-top: 30px;
+margin-right: 40px;  
+  }
+
+ }
+
+@media all and (max-width: 768px) and (min-width: 501px){
+/*kontener na menu */
+   header{
+  height: 50px;
+   }
+
+/*ikony flag*/
+  .icons-container{
+  margin-right: 25%;
+  height: 50px;/*wyrownaniew pionie flag*/
+  line-height: 50px;/*wyrownaniew pionie flag*/
+   }
+
+
+
+
+   /*szary pasek na zdjecie */
+.tytul{
+    -webkit-transform: translateY(-75px);
+    transform: translateY(-75px);
+    height: 150px; 
+ }
+
+.tytul p {
+ margin-top: 35px;
+ color: #190d0d;
+
+}
+ .foto-underline{
+    width: 480px;
+   
+   }
+
+/*pokaz menu mobilne*/
+ #attach-mobile-menu{
+  display: block;
+ }
+
+ /*ukryj menu glowne*/
+ #main-menu{
+  display: none;
+ }
+
+/*pozycjonowanie hamburgera*/
+.slicknav_menu{
+  position: fixed;
+  background: #302727 !important;
+  z-index: -99;
+  left: 0;
+  right: 0;
+  
+ }
+
+ /*pozycjonowanie menu roziwjanego*/
+ ul.slicknav_nav{
+  margin-top: 80px;}
+  .slicknav_btn{
+  top: 5px;
+  right: 5px;
+  background: #190404 !important;
+  padding: 3x;
+  }
+
+
+ ul.slicknav_nav a{ 
+ outline:none;
+text-align: center;
+margin: 0px;
+padding:5px;
+}
+ 
+ ul.slicknav_nav a:hover{
+
+/* Mozilla Firefox */
+
+/* Opera */
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40, #EFAB00), color-stop(90, #B37525));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #EFAB00 40%, #B37525 90%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to bottom, #EFAB00 40%, #B37525 90%);
+
+}
+ 
+/*sekcja o mnie*/
+
+.flex{
+  width:80%;
+}
+
+img.mojafota{
+ max-width: 60%;
+}
+
+
+ div.box1{
+   width: 100%;
+    color:    #f0fff0;
+    }
+div.box2{
+  width: 40%;
+  color:    #f0fff0;
+  margin-left: 30%;
+  
+  }
+
+img.mojafota{
+ margin: 0 auto;
+ max-width: 60%;
+}
+
+/*sekcja portfolio*/
+/*sekcja porfolio*/
+  
+
+.boxy{ 
+  width: 80%;
+}
+.box{
+
+}
+
+a img.img-box{
+  max-width: 95%;
+  height: auto;
+}
+
+/*sekcja kontakt*/
+ .kontaktramka{
+  width: 100%;
+ }
+.adres{
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+.formularz {
+ width: 60%;
+ margin-top: 0px;
+ margin-left: 35%;
+}
+.map{
+width: 100%;
+margin-right: 0px;
+padding-top: 0px;
+ 
+}
+.map iframe{
+  height: 150px;
+  }
+}
+
+ @media all and (max-width: 500px){
+  header{
+  height: 50px;
+
+   }
+
+   .icons-container{
+    margin-right: 20%;
+    height: 50px;/*wyrownaniew pionie flag*/
+    line-height: 50px;/*wyrownaniew pionie flag*/
+   }
+
+/*podmiana obrazu glowenego  na mniejszy*/
+ 
+
+  .foto-underline{
+    width: 260px;
+   
+   }
+.foto-header{
+  display: none;
+}
+
+ .fotosmall-header{
+  display: block;
+  height:100vh;
+  max-width: 100%;
+  width: auto;
+  -webkit-filter: brightness(0.6);
+          filter: brightness(0.6);
+   }
+  
+  .logo-underline{
+   width: 200px;
+  height: 2px;
+  margin:0 auto;
+  border-bottom: 2px solid #eeaa00;
+  margin-bottom: 5px;
+   }
+
+ .foto-header{
+  margin-top: 50px;}
+
+
+  
+.tytul{
+  height: 110px;
+   top:50%;
+   -webkit-transform: translateY(-35%);
+   transform: translateY(-35%);  
+ }
+
+.tytul p {
+ margin-top: 25px;
+ color: #190d0d;
+
+}
+
+
+ .tytul h1{
+  font-size: 1.2rem;
+  font-weight: bold;
+ 
+ }
+
+ .tytul h2{
+  font-size: 0.9rem;
+ }
+/*pokaz menu mobilne*/
+ #attach-mobile-menu{
+  display: block;
+ }
+
+ /*ukryj menu glowne*/
+ #main-menu{
+  display: none;
+ }
+
+/*pozycjonowanie hamburgera*/
+.slicknav_menu{
+  position: fixed;
+  z-index: -99;
+  left: 0;
+  right: 0;
+  background:  #302727 !important;
+ }
+
+ 
+
+ /*pozycjonowanie menu roziwjanego*/
+ ul.slicknav_nav{
+  margin-top: 2px;
+  background:  #302727;
+}
+
+
+  .slicknav_btn{
+
+  background: #190404 !important;
+  padding: 5px;
+  z-index: 99;
+  }
+
+
+ ul.slicknav_nav a{ 
+ outline:none;
+ text-align: center;
+margin: 0px;
+padding:5px;
+}
+ul.slicknav_nav a:hover{
+
+/* Mozilla Firefox */
+
+/* Opera */
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40, #EFAB00), color-stop(90, #B37525));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #EFAB00 40%, #B37525 90%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to bottom, #EFAB00 40%, #B37525 90%);
+
+}
+ 
+/*sekcja o mnie*/
+
+.flex{
+  width:80%;
+}
+
+
+
+
+ div.box1{
+   width: 100%;
+    color:    #f0fff0;
+    }
+div.box2{
+  width: 40%;
+  color:    #f0fff0;
+ 
+  margin-left: 30%;
+  }
+img.mojafota{
+ margin: 0 auto;
+ max-width: 80%;
+}
+
+/*sekcja portfolio*/
+
+.boxy{ 
+  width: 80%;
+}
+ /*sekcja portfolio z pojedymczym boxem */
+   .box{
+  text-align: center;
+  
+ width: 100%;
+ max-width: 100%;
+  outline: none;
+ 
+
+}
+a img.img-box{
+  width:90%;
+  max-width: 100%;
+  height: auto;
+  margin: 0px;
+}
+
+
+.slick-track{
+  padding: 5px !important;
+}
+
+/*sekcja kontakt*/
+ .kontaktramka{
+  width: 100%;
+ }
+
+.map{
+width: 100%;
+padding-top: 0px;
+margin-right: 0px;
+}
+
+.map iframe{
+  height: 150px;
+}
+
+
+.formularz {
+ width: 70%;
+ margin: 0 auto;
+ margin-right: 0px;
+ margin-left: 25%;
+  
+}
+.adres{
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+
+
+textarea{
+  background-color:#f2f2f2;
+  height: 80px;
+  width: 200px;
+  box-shadow: inset 3px 3px 4px #FAFAFA ;
+}
+
+.logo img{
+  width: 100px;
+  height: 50px;
+}
+
+.copyright{
+  font-size: 0.6rem;
+  color:#f0fff0;
+ }
+
+
+ }
+ 

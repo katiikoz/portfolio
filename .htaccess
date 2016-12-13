@@ -1,0 +1,3 @@
+AllowOverride All
+RewriteEngine on
+RewriteRules en en.html
